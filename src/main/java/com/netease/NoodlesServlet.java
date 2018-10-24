@@ -21,7 +21,7 @@ public class NoodlesServlet extends HttpServlet {
 		PrintWriter writer = response.getWriter();
 		String vegetable = request.getParameter("vegetable");
 		if (vegetable == null) {
-			vegetable = "Tomato";
+			vegetable = "Tomato ";
 		}
 		logger.error(vegetable);
 
